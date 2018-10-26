@@ -14,13 +14,13 @@
     <div class="container">
         <div class="row">
             <div class="col s12 l4">
-                <img class="materialboxed" width="300" src="/img/MG-3-1.png">
+                <img class="materialboxed responsive-img z-depth-1" src="/img/MG-3-1.png"><br>
             </div>
             <div class="col s12 l4">
-                <img class="materialboxed" width="300" src="/img/MG-GT-1.png">
+                <img class="materialboxed responsive-img z-depth-1" src="/img/MG-GT-1.png"><br>
             </div>
             <div class="col s12 l4">
-                <img class="materialboxed" width="300" src="/img/NP300-1.png">
+                <img class="materialboxed responsive-img z-depth-1" src="/img/NP300-1.png"><br>
             </div>
         </div>
     </div>

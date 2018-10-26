@@ -5,6 +5,10 @@ document.addEventListener('DOMContentLoaded', function () {
     instances = M.Carousel.init(elems, {indicators: true});
     elems = document.querySelectorAll('.materialboxed');
     instances = M.Materialbox.init(elems);
+    var elems = document.querySelectorAll('select');
+    var instances = M.FormSelect.init(elems);
+    var elems = document.querySelectorAll('.datepicker');
+    var instances = M.Datepicker.init(elems);
 
     var instance = M.Carousel.getInstance(document.querySelector('.carousel'));
     var timerId = setTimeout(() => instance.next(), 6000);
